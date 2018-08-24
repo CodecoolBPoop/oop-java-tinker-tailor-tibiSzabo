@@ -21,6 +21,7 @@ class Tinkertailor {
             players.remove(idx-1);
             System.out.println("Remaining player(s)" + players.toString() + "\n");
         }
+        System.out.println("The winner is: " + players.get(0));
     }
 
 
